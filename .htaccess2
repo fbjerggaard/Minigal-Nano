@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /thumbgallery
+RewriteRule ^dir/(.*)$ index.php?dir=$1 [QSA]
